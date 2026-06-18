@@ -18,7 +18,7 @@ export default function Projects() {
     : projects.items.filter(project => project.tags.includes(filter))
 
   return (
-    <section id="projects" className="px-4 sm:px-6 relative">
+    <section id="projects" className="px-4 my-[10em] sm:px-6 relative">
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-10 sm:mb-14">
           <button
