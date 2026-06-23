@@ -1,7 +1,7 @@
 import { 
-  Rocket, MessageSquare,
-  RefreshCw, Sprout, Building, HeartPulse, GraduationCap, Building2, Store, Smartphone, Layers,
-  Home, ShoppingBag, Database, Shield, Cloud, Zap, Server, GitBranch, Terminal
+  Rocket,
+  RefreshCw, Sprout, HeartPulse, GraduationCap, Building2, Store, Smartphone, Layers,
+  Home, ShoppingBag, Database, Shield, Zap, Server, Terminal
 } from "lucide-react"
 
 export function getExperienceYears() {
@@ -80,11 +80,11 @@ export const siteData = {
         tags: ["#microservices", "#ai", "#SaaS"],
         gradient: "from-[#68A063] to-[#7CB873]",
         icon: Sprout,
-        link: "https://github.com/okmic/postfarm",
+        link: "https://okmic.github.io/GetPostFarm/",
         stats: [
-          { label: "Тем для постов", value: "1000+" },
-          { label: "Пользователей", value: "500+" },
-          { label: "Запуск", value: "Июль 2024" }
+          { label: "Сервисы", value: "4+" },
+          { label: "Пользователей", value: "50+" },
+          { label: "Запуск", value: "Июль 2026" }
         ]
       },
       {
@@ -110,7 +110,7 @@ export const siteData = {
         tags: ["#SaaS", "#ecommerce", "#integration"],
         gradient: "from-[#00ADD8] to-[#5DC9E2]",
         icon: Store,
-        link: "https://github.com/okmic/sber-marketplace",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Товаров", value: "100K+" },
           { label: "Заказов", value: "50K+" },
@@ -119,13 +119,13 @@ export const siteData = {
       },
       {
         id: "yandex_realty",
-        title: "SaaS для Яндекс Недвижимости",
+        title: "SaaS для Яндекс Недвижимости FEED",
         description: "Интеграция с Яндекс Недвижимостью: автоматическая выгрузка объектов, синхронизация статусов, аналитика рынка.",
         tech: ["Node.js", "Next.js", "PostgreSQL", "Redis", "Docker"],
         tags: ["#SaaS", "#realestate", "#integration"],
         gradient: "from-[#F59E0B] to-[#F97316]",
         icon: Home,
-        link: "https://github.com/okmic/yandex-realty",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Объектов", value: "50K+" },
           { label: "Агентов", value: "200+" },
@@ -140,7 +140,7 @@ export const siteData = {
         tags: ["#SaaS", "#realestate", "#integration"],
         gradient: "from-[#8B5CF6] to-[#6D28D9]",
         icon: Building2,
-        link: "https://github.com/okmic/avito-realty",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Объявлений", value: "100K+" },
           { label: "Клиентов", value: "300+" },
@@ -148,74 +148,14 @@ export const siteData = {
         ]
       },
       {
-        id: "cian",
-        title: "SaaS для Циан",
-        description: "Интеграция с Циан: автоматическая публикация объектов, обновление статусов, сбор аналитики по рынку недвижимости.",
-        tech: ["Go", "React", "PostgreSQL", "Redis", "Kubernetes"],
-        tags: ["#SaaS", "#realestate", "#golang"],
-        gradient: "from-[#3B82F6] to-[#1D4ED8]",
-        icon: Building,
-        link: "https://github.com/okmic/cian-integration",
-        stats: [
-          { label: "Объектов", value: "30K+" },
-          { label: "Аналитика", value: "Реалтайм" },
-          { label: "Скорость", value: "<200ms" }
-        ]
-      },
-      {
-        id: "domclick",
-        title: "SaaS для Домклик",
-        description: "Интеграция с Домклик (Сбербанк): ипотечный калькулятор, подбор объектов, аналитика по ипотечным ставкам.",
-        tech: ["Node.js", "React", "PostgreSQL", "Redis", "Docker"],
-        tags: ["#SaaS", "#realestate", "#integration"],
-        gradient: "from-[#10B981] to-[#059669]",
-        icon: Home,
-        link: "https://github.com/okmic/domclick-integration",
-        stats: [
-          { label: "Ипотек", value: "10K+" },
-          { label: "Объектов", value: "20K+" },
-          { label: "Ставок", value: "Динамика" }
-        ]
-      },
-      {
-        id: "ozon",
-        title: "SaaS для Ozon Seller",
-        description: "Комплексная платформа для селлеров Ozon: управление товарами, ценами, остатками, аналитика продаж и конкурентов.",
-        tech: ["NestJS", "React", "MongoDB", "Redis", "RabbitMQ"],
-        tags: ["#SaaS", "#ecommerce", "#integration"],
-        gradient: "from-[#F472B6] to-[#EC4899]",
-        icon: ShoppingBag,
-        link: "https://github.com/okmic/ozon-seller",
-        stats: [
-          { label: "Товаров", value: "500K+" },
-          { label: "Продаж", value: "100K+" },
-          { label: "Мониторинг", value: "24/7" }
-        ]
-      },
-      {
-        id: "viber",
-        title: "SaaS для Viber Business",
-        description: "Платформа для бизнес-коммуникации через Viber: рассылки, чат-боты, автоматизация ответов, CRM интеграция.",
-        tech: ["Node.js", "React", "PostgreSQL", "Redis", "WebSocket"],
-        tags: ["#SaaS", "#messenger", "#automation"],
-        gradient: "from-[#7C3AED] to-[#5B21B6]",
-        icon: MessageSquare,
-        link: "https://github.com/okmic/viber-business",
-        stats: [
-          { label: "Сообщений", value: "1M+" },
-          { label: "Ботов", value: "100+" },
-          { label: "Скорость", value: "<50ms" }
-        ]
-      },
-      {
         id: "telegram_shop",
-        title: "Telegram магазин с AI-подбором",
+        title: "NDA Telegram магазин с AI-подбором",
         description: "Полноценный магазин в Telegram с AI-рекомендациями, автоматической обработкой заказов и поддержкой клиентов.",
         tech: ["Node.js", "Telegraf", "PostgreSQL", "Redis", "AI/ML"],
         tags: ["#nodejs", "#bots", "#ai"],
         gradient: "from-[#60A5FA] to-[#2563EB]",
         icon: Smartphone,
-        link: "https://github.com/okmic/telegram-shop",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Товаров", value: "10K+" },
           { label: "Заказов", value: "5K+" },
@@ -328,36 +268,6 @@ export const siteData = {
         ]
       },
       {
-        id: "nda_fastify_6",
-        title: "NDA — Биржевой агрегатор на Fastify",
-        description: "Агрегатор биржевых данных с обработкой потоков в реальном времени. Интеграция с 20+ биржами, анализ котировок.",
-        tech: ["Fastify", "PostgreSQL", "Redis", "WebSocket", "Docker"],
-        tags: ["#backend", "#fastify", "#realtime"],
-        gradient: "from-[#10B981] to-[#047857]",
-        icon: GitBranch,
-        link: "https://github.com/okmic/nda-exchange",
-        stats: [
-          { label: "Бирж", value: "20+" },
-          { label: "Котировок/сек", value: "100K+" },
-          { label: "Задержка", value: "<5ms" }
-        ]
-      },
-      {
-        id: "nda_fastify_7",
-        title: "NDA — Социальная сеть на Fastify",
-        description: "Backend для социальной сети с постами, лентой, чатами и уведомлениями. Масштабируемая архитектура для миллионов пользователей.",
-        tech: ["Fastify", "PostgreSQL", "Redis", "WebSocket", "Docker"],
-        tags: ["#backend", "#fastify", "#social"],
-        gradient: "from-[#A78BFA] to-[#7C3AED]",
-        icon: Cloud,
-        link: "https://github.com/okmic/nda-social",
-        stats: [
-          { label: "Пользователей", value: "1M+" },
-          { label: "Постов/день", value: "100K+" },
-          { label: "Чат", value: "Реалтайм" }
-        ]
-      },
-      {
         id: "nda_nest_1",
         title: "NDA — CRM система на NestJS",
         description: "Корпоративная CRM с управлением клиентами, задачами, проектами и документами. Полноценная ERP система с интеграцией 1С.",
@@ -370,21 +280,6 @@ export const siteData = {
           { label: "Клиентов", value: "100K+" },
           { label: "Документов", value: "500K+" },
           { label: "Интеграций", value: "1С" }
-        ]
-      },
-      {
-        id: "nda_nest_2",
-        title: "NDA — Маркетплейс на NestJS",
-        description: "Полноценный маркетплейс с управлением товарами, продавцами, заказами и платежами. Сложная бизнес-логика и множество интеграций.",
-        tech: ["NestJS", "React", "MongoDB", "Redis", "RabbitMQ", "Docker"],
-        tags: ["#backend", "#nestjs", "#ecommerce"],
-        gradient: "from-[#F472B6] to-[#EC4899]",
-        icon: ShoppingBag,
-        link: "https://github.com/okmic/nda-marketplace",
-        stats: [
-          { label: "Товаров", value: "1M+" },
-          { label: "Продавцов", value: "10K+" },
-          { label: "Заказов/день", value: "50K+" }
         ]
       },
       {
