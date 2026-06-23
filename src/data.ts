@@ -50,7 +50,7 @@ export const siteData = {
         tags: ["#SaaS", "#collaboration", "#productivity"],
         gradient: "from-[#7C3AED] to-[#A78BFA]",
         icon: Layers,
-        link: "https://github.com/okmic/nda-workspace",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Пользователей", value: "10M+" },
           { label: "Документов", value: "1M+" },
@@ -95,7 +95,7 @@ export const siteData = {
         tags: ["#fullstack", "#typescript", "#nextjs"],
         gradient: "from-[#7C3AED] to-[#A78BFA]",
         icon: GraduationCap,
-        link: "https://github.com/okmic/crm-platform",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Студентов", value: "3000+" },
           { label: "Платежей", value: "10000+" },
@@ -170,7 +170,7 @@ export const siteData = {
         tags: ["#fullstack", "#healthcare", "#crm"],
         gradient: "from-[#34D399] to-[#047857]",
         icon: HeartPulse,
-        link: "https://github.com/okmic/healthcare-system",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Пациентов", value: "50K+" },
           { label: "Врачей", value: "200+" },
@@ -200,7 +200,7 @@ export const siteData = {
         tags: ["#backend", "#fastify", "#microservices"],
         gradient: "from-[#FF6B6B] to-[#FF4757]",
         icon: Server,
-        link: "https://github.com/okmic/nda-api-gateway",
+        link: "https://github.com/okmic",
         stats: [
           { label: "RPS", value: "50K+" },
           { label: "Сервисов", value: "30+" },
@@ -215,7 +215,7 @@ export const siteData = {
         tags: ["#backend", "#fastify", "#ecommerce"],
         gradient: "from-[#F59E0B] to-[#F97316]",
         icon: ShoppingBag,
-        link: "https://github.com/okmic/nda-trading-platform",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Товаров", value: "200K+" },
           { label: "Заказов", value: "100K+" },
@@ -230,7 +230,7 @@ export const siteData = {
         tags: ["#backend", "#fastify", "#analytics"],
         gradient: "from-[#34D399] to-[#059669]",
         icon: Zap,
-        link: "https://github.com/okmic/nda-analytics",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Событий/день", value: "10M+" },
           { label: "Отчетов", value: "1000+" },
@@ -245,7 +245,7 @@ export const siteData = {
         tags: ["#backend", "#fastify", "#fintech"],
         gradient: "from-[#3B82F6] to-[#1D4ED8]",
         icon: Database,
-        link: "https://github.com/okmic/nda-fintech",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Транзакций", value: "1M+" },
           { label: "Безопасность", value: "99.99%" },
@@ -260,7 +260,7 @@ export const siteData = {
         tags: ["#backend", "#fastify", "#streaming"],
         gradient: "from-[#EC4899] to-[#BE185D]",
         icon: Terminal,
-        link: "https://github.com/okmic/nda-media-platform",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Загрузок/день", value: "50K+" },
           { label: "Контента", value: "10TB+" },
@@ -275,7 +275,7 @@ export const siteData = {
         tags: ["#backend", "#nestjs", "#crm"],
         gradient: "from-[#8B5CF6] to-[#6D28D9]",
         icon: Building2,
-        link: "https://github.com/okmic/nda-crm",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Клиентов", value: "100K+" },
           { label: "Документов", value: "500K+" },
@@ -290,7 +290,7 @@ export const siteData = {
         tags: ["#backend", "#nestjs", "#booking"],
         gradient: "from-[#F59E0B] to-[#D97706]",
         icon: Home,
-        link: "https://github.com/okmic/nda-booking",
+        link: "https://github.com/okmic",
         stats: [
           { label: "Броней/день", value: "10K+" },
           { label: "Партнеров", value: "500+" },
