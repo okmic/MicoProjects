@@ -81,9 +81,9 @@ export const siteData = {
         icon: Sprout,
         link: "https://okmic.github.io/GetPostFarm/",
         stats: [
-          { label: "Гибридное ПО", value: "Mic&Mon" },
+          { label: "AI", value: "NLP" },
           { label: "Пользователей", value: "50+" },
-          { label: "Админок", value: "3" }
+          { label: "Интеграций", value: "3+" }
         ]
       },
       {
