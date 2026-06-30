@@ -51,9 +51,9 @@ export const siteData = {
         icon: Layers,
         link: "",
         stats: [
-          { label: "Команд", value: "100+" },
-          { label: "Документов", value: "10K+" },
-          { label: "RPS", value: "500+" }
+          { label: "Команд", value: "10K+" },
+          { label: "Документов", value: "10M+" },
+          { label: "RPS", value: "15K+" }
         ]
       },
       {
@@ -81,9 +81,9 @@ export const siteData = {
         icon: Sprout,
         link: "https://okmic.github.io/GetPostFarm/",
         stats: [
-          { label: "Сервисов", value: "4+" },
+          { label: "Гибридное ПО", value: "Mic&Mon" },
           { label: "Пользователей", value: "50+" },
-          { label: "Запуск", value: "Июль 2026" }
+          { label: "Админок", value: "3" }
         ]
       },
       {
