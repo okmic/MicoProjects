@@ -82,8 +82,8 @@ export const siteData = {
         link: "https://okmic.github.io/GetPostFarm/",
         stats: [
           { label: "AI", value: "NLP" },
-          { label: "Пользователей", value: "50+" },
-          { label: "Интеграций", value: "3+" }
+          { label: "Пользователей", value: "70+" },
+          { label: "Интеграций", value: "5+" }
         ]
       },
       {
