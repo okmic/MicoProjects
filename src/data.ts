@@ -1,6 +1,6 @@
 import { 
   Rocket, RefreshCw, Sprout, HeartPulse, GraduationCap, Building2, Store, Smartphone, Layers,
-  Home, ShoppingBag, Database, Shield, Server, Terminal, 
+  Home, ShoppingBag, Database, Server, Terminal, 
 } from "lucide-react"
 
 export function getExperienceYears() {
@@ -174,21 +174,6 @@ export const siteData = {
           { label: "Пациентов", value: "5K+" },
           { label: "Врачей", value: "200+" },
           { label: "Записей", value: "10K+" }
-        ]
-      },
-      {
-        id: "deloros",
-        title: "deloros09.ru — админ-панель",
-        description: "Административная панель для 'Деловая Россия КЧР'. Интеграция с CRM, автоматическое бэкапирование, управление контентом и пользователями.",
-        tech: ["Fastify", "React", "PostgreSQL", "Redis", "Docker"],
-        tags: ["#backend", "#fastify", "#admin"],
-        gradient: "from-[#4F46E5] to-[#6366F1]",
-        icon: Shield,
-        link: "https://deloros09.ru",
-        stats: [
-          { label: "Пользователей", value: "500+" },
-          { label: "Бэкапов", value: "Ежедневно" },
-          { label: "Интеграций", value: "CRM" }
         ]
       },
       {
